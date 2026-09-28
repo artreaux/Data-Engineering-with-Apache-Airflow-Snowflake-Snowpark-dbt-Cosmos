@@ -1,0 +1,338 @@
+==================== 2026-09-25T02:34:03.247082Z | 01a0d669-a657-7533-a9d0-fbd07c2f0f7f ====================
+02:34:03.251096 [info ]: Installing dbt project and profile setup
+02:34:03.272828 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+02:34:03.275011 [info ]: Success Project created successfully!
+02:34:03.275290 [info ]: Info Project name: jaffle_shop
+02:34:03.275397 [info ]: Info Project directory: jaffle_shop
+02:34:20.663268 [info ]: Info Setting up your profile...
+02:34:20.666591 [info ]: Loading ~/.dbt/profiles.yml
+02:34:20.674806 [info ]: Info Creating new profile...
+02:50:34.817414 [info ]: Success Profile written to C:\Users\lucas\.dbt\profiles.yml
+02:50:34.819151 [info ]: Validating profile inputs, adapters, and connection
+
+02:50:34.819657 [info ]: dbt 2.0.6
+02:50:34.822923 [info ]: Started loading project
+02:50:34.853580 [info ]: Loading ~/.dbt/profiles.yml
+02:50:34.879085 [info ]: Finished loading project [  0.06s]
+02:50:34.884000 [info ]: Started debugging
+02:50:34.884597 [info ]: Debugging profile: dev
+02:50:34.884683 [info ]: Debugging dbt version: 2.0.6
+02:50:34.884760 [info ]: Debugging platform: windows x86_64 (windows)
+02:50:34.885168 [info ]: Debugging adapter type: snowflake (remote)
+02:50:34.951010 [info ]: Debugging dependencies:
+  git: OK
+02:50:34.954322 [info ]: Debugging connection:
+  "account": "RL78215",
+  "user": "JIANNORTHSTARPT2",
+  "database": "DE_AA_DB",
+  "warehouse": "DE_AA_WH",
+  "schema": "DE_AA_SCHEMA",
+  "role": "ACCOUNTADMIN"
+02:50:34.964669 [info ]: Debugging connection test: ERROR
+02:50:34.965698 [info ]: Finished debugging [  0.08s]
+02:50:34.968678 [error]: [AuthenticationFailed (dbt1011)]: dbt was unable to connect to the database configured for the `snowflake` adapter.
+The following error was returned:
+
+Configuration Error: Private key file not found: '"C:\Users\lucas\de-aa.p8"'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles
+==================== 2026-09-25T02:51:12.316828Z | 01a0d679-5a3b-7772-841b-c06d1d1a21b8 ====================
+02:51:12.317088 [info ]: Installing dbt project and profile setup
+02:51:12.319965 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_1' instead
+02:51:12.333661 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+02:51:12.333914 [info ]: Success Project created successfully!
+02:51:12.334016 [info ]: Info Project name: jaffle_shop_1
+02:51:12.334138 [info ]: Info Project directory: jaffle_shop_1
+==================== 2026-09-25T02:51:58.019917Z | 01a0d67a-0cc2-7671-bb31-8d994984f48d ====================
+02:51:58.020128 [info ]: Installing dbt project and profile setup
+02:51:58.022806 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_2' instead
+02:51:58.035678 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+02:51:58.035931 [info ]: Success Project created successfully!
+02:51:58.036039 [info ]: Info Project name: jaffle_shop_2
+02:51:58.036138 [info ]: Info Project directory: jaffle_shop_2
+02:52:29.176186 [info ]: Info Skipping profile setup.
+02:52:29.176300 [info ]: Validating profile inputs, adapters, and connection
+
+02:52:29.176604 [info ]: dbt 2.0.6
+02:52:29.176905 [info ]: Started loading project
+02:52:29.186263 [info ]: Loading ~/.dbt/profiles.yml
+02:52:29.186696 [info ]: Finished loading project [  0.01s]
+02:52:29.187089 [error]: [IoError (dbt1001)]: Profile 'jaffle_shop_2' not found in profiles.yml
+  --> .\dbt_project.yml:3:10
+02:52:29.689608 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error [31.7s]
+==================== 2026-09-25T02:52:34.684592Z | 01a0d67a-9bfa-7153-ae86-ebd5ee0f620f ====================
+02:52:34.684779 [info ]: Installing dbt project and profile setup
+02:52:34.687422 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_3' instead
+02:52:34.702744 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+02:52:34.702974 [info ]: Success Project created successfully!
+02:52:34.703066 [info ]: Info Project name: jaffle_shop_3
+02:52:34.703167 [info ]: Info Project directory: jaffle_shop_3
+02:52:36.137653 [info ]: Info Setting up your profile...
+02:52:36.138047 [info ]: Loading ~/.dbt/profiles.yml
+02:52:36.138475 [info ]: Info Creating new profile...
+02:53:22.299002 [info ]: Success Profile written to C:\Users\lucas\.dbt\profiles.yml
+02:53:22.299128 [info ]: Validating profile inputs, adapters, and connection
+
+02:53:22.299317 [info ]: dbt 2.0.6
+02:53:22.299676 [info ]: Started loading project
+02:53:22.308461 [info ]: Loading ~/.dbt/profiles.yml
+02:53:22.316407 [info ]: Finished loading project [  0.02s]
+02:53:22.316604 [info ]: Started debugging
+02:53:22.316675 [info ]: Debugging profile: dev
+02:53:22.316800 [info ]: Debugging dbt version: 2.0.6
+02:53:22.316876 [info ]: Debugging platform: windows x86_64 (windows)
+02:53:22.316971 [info ]: Debugging adapter type: snowflake (remote)
+02:53:22.350803 [info ]: Debugging dependencies:
+  git: OK
+02:53:22.351050 [info ]: Debugging connection:
+  "account": "RL78215",
+  "user": "JIANNORTHSTARPT2",
+  "database": "DE_AA_DB",
+  "warehouse": "DE_AA_WH",
+  "schema": "DE_AA_SCHEMA"
+02:53:22.353593 [debug]: Snowflake driver resolved: snowflake 0.21.0.dev+dbt0.21.18
+02:53:28.151974 [info ]: Debugging connection test: ERROR
+02:53:28.152290 [info ]: Finished debugging [  5.84s]
+02:53:28.152527 [error]: [AuthenticationFailed (dbt1011)]: dbt was unable to connect to the database configured for the `snowflake` adapter.
+The following error was returned:
+
+[Snowflake] 261004 (08004): failed to auth for unknown reason. HTTP: 404, URL: https://RL78215.snowflakecomputing.com:443/session/v1/login-request?databaseName=DE_AA_DB&requestId=bac7452b-1846-489e-50da-cdf84adf7005&request_guid=f17c82a3-ab26-423d-579b-570ccfcd0fdc&schemaName=DE_AA_SCHEMA&warehouse=DE_AA_WH
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles
+02:53:28.461252 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [53.8s]
+==================== 2026-09-25T02:54:05.770556Z | 01a0d67b-ffc8-7950-b508-2104b9c9c5d7 ====================
+02:54:05.770749 [info ]: Installing dbt project and profile setup
+02:54:05.773410 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_4' instead
+02:54:05.790346 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+02:54:05.790563 [info ]: Success Project created successfully!
+02:54:05.790665 [info ]: Info Project name: jaffle_shop_4
+02:54:05.790738 [info ]: Info Project directory: jaffle_shop_4
+02:54:07.506676 [info ]: Info Setting up your profile...
+02:54:07.507078 [info ]: Loading ~/.dbt/profiles.yml
+02:54:07.507813 [info ]: Info Creating new profile...
+02:54:36.518581 [info ]: Success Profile written to C:\Users\lucas\.dbt\profiles.yml
+02:54:36.518828 [info ]: Validating profile inputs, adapters, and connection
+
+02:54:36.518952 [info ]: dbt 2.0.6
+02:54:36.519201 [info ]: Started loading project
+02:54:36.527405 [info ]: Loading ~/.dbt/profiles.yml
+02:54:36.533932 [info ]: Finished loading project [  0.01s]
+02:54:36.534096 [info ]: Started debugging
+02:54:36.534171 [info ]: Debugging profile: dev
+02:54:36.534261 [info ]: Debugging dbt version: 2.0.6
+02:54:36.534368 [info ]: Debugging platform: windows x86_64 (windows)
+02:54:36.534482 [info ]: Debugging adapter type: snowflake (remote)
+02:54:36.566166 [info ]: Debugging dependencies:
+  git: OK
+02:54:36.566477 [info ]: Debugging connection:
+  "account": "HSVDQAR-RL78215",
+  "user": "JIANNORTHSTARPT2",
+  "database": "DE_AA_DB",
+  "warehouse": "DE_AA_WH",
+  "schema": "DE_AA_SCHEMA"
+02:54:36.566927 [debug]: Snowflake driver resolved: snowflake 0.21.0.dev+dbt0.21.18
+02:54:37.156040 [info ]: Debugging connection test: ERROR
+02:54:37.156408 [info ]: Finished debugging [  0.62s]
+02:54:37.156610 [error]: [AuthenticationFailed (dbt1011)]: dbt was unable to connect to the database configured for the `snowflake` adapter.
+The following error was returned:
+
+[Snowflake] 390100 (08004): Incorrect username or password was specified. [d852bd93-56c1-441c-9c40-1938ede8978d]
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles
+02:54:37.782841 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [32.0s]
+==================== 2026-09-25T02:54:46.545030Z | 01a0d67c-9f0f-7da1-a7c3-cbee8e04558a ====================
+02:54:46.545262 [info ]: Installing dbt project and profile setup
+02:54:46.548156 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_5' instead
+02:54:46.565998 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+02:54:46.566231 [info ]: Success Project created successfully!
+02:54:46.566343 [info ]: Info Project name: jaffle_shop_5
+02:54:46.566465 [info ]: Info Project directory: jaffle_shop_5
+02:54:48.100689 [info ]: Info Setting up your profile...
+02:54:48.101133 [info ]: Loading ~/.dbt/profiles.yml
+02:54:48.101648 [info ]: Info Creating new profile...
+02:55:12.497449 [info ]: Success Profile written to C:\Users\lucas\.dbt\profiles.yml
+02:55:12.497746 [info ]: Validating profile inputs, adapters, and connection
+
+02:55:12.497881 [info ]: dbt 2.0.6
+02:55:12.498157 [info ]: Started loading project
+02:55:12.505103 [info ]: Loading ~/.dbt/profiles.yml
+02:55:12.511166 [info ]: Finished loading project [  0.01s]
+02:55:12.511330 [info ]: Started debugging
+02:55:12.511404 [info ]: Debugging profile: dev
+02:55:12.511490 [info ]: Debugging dbt version: 2.0.6
+02:55:12.511582 [info ]: Debugging platform: windows x86_64 (windows)
+02:55:12.511687 [info ]: Debugging adapter type: snowflake (remote)
+02:55:12.542851 [info ]: Debugging dependencies:
+  git: OK
+02:55:12.543279 [info ]: Debugging connection:
+  "account": "HSVDQAR-RL78215",
+  "user": "JIANNORTHSTARPT2",
+  "database": "DE_AA_DB",
+  "warehouse": "DE_AA_WH",
+  "schema": "DE_AA_SCHEMA"
+02:55:12.543957 [debug]: Snowflake driver resolved: snowflake 0.21.0.dev+dbt0.21.18
+02:55:13.245304 [debug]: borrow_tlocal_connection() took 700.9735ms
+02:55:13.252479 [debug]: create_debug_span(...).entered() took 1.0475ms
+02:55:13.437262 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 184.3648ms
+02:55:13.437487 [debug]: reader.schema() took 193.8µs
+02:55:13.439319 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 186.8218ms
+02:55:13.441520 [debug]: concat_batches + normalize_result_column_names took 2.1733ms
+02:55:13.441773 [debug]: record_current_span_status_from_attrs took 239.9µs
+02:55:13.441913 [debug]: Query executed on node unknown:
+select 1 as id
+02:55:13.441948 [debug]: drop(query_span_guard) (span exit/export) took 162.1µs
+02:55:13.444472 [debug]: adapter.execute() (full call, incl. adbc_execute_with_options) took 199.1386ms
+02:55:13.444862 [info ]: Debugging connection test: OK
+02:55:13.445389 [info ]: Debugged All checks passed!
+02:55:13.445604 [info ]: Finished debugging [  0.93s]
+02:55:13.866356 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [27.3s]
+==================== 2026-09-25T07:26:50.702312Z | 01a0d775-b533-7243-b80c-95f5c3d3f65f ====================
+07:26:50.707238 [info ]: Installing dbt project and profile setup
+07:26:50.738057 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+07:26:50.740584 [info ]: Success Project created successfully!
+07:26:50.741010 [info ]: Info Project name: jaffle_shop
+07:26:50.741279 [info ]: Info Project directory: jaffle_shop
+07:27:02.958743 [info ]: Info Skipping profile setup.
+07:27:02.959244 [info ]: Validating profile inputs, adapters, and connection
+
+07:27:02.959755 [info ]: dbt 2.0.6
+07:27:02.964650 [info ]: Started loading project
+07:27:03.007455 [info ]: Loading ~/.dbt/profiles.yml
+07:27:03.034802 [info ]: Finished loading project [  0.07s]
+07:27:03.039941 [info ]: Started debugging
+07:27:03.041016 [info ]: Debugging profile: dev
+07:27:03.041279 [info ]: Debugging dbt version: 2.0.6
+07:27:03.041455 [info ]: Debugging platform: windows x86_64 (windows)
+07:27:03.042549 [info ]: Debugging adapter type: snowflake (remote)
+07:27:03.538636 [info ]: Debugging dependencies:
+  git: OK
+07:27:03.543205 [info ]: Debugging connection:
+  "account": "RL78215",
+  "user": "JIANNORTHSTARPT2",
+  "database": "DE_AA_DB",
+  "warehouse": "DE_AA_WH",
+  "schema": "DE_AA_SCHEMA",
+  "role": "ACCOUNTADMIN"
+07:27:03.555286 [info ]: Debugging connection test: ERROR
+07:27:03.556274 [info ]: Finished debugging [  0.52s]
+07:27:03.560977 [error]: [AuthenticationFailed (dbt1011)]: dbt was unable to connect to the database configured for the `snowflake` adapter.
+The following error was returned:
+
+Configuration Error: Private key file not found: '"C:\Users\lucas\de-aa.p8"'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles
+07:27:04.271343 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [13.6s]
+[0m16:01:23.730633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DEE8606E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF0DF3D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF0DF3890>]}
+
+
+============================== 16:01:23.738138 | 43f1c71b-63a4-473d-875a-c8df10ea73e3 ==============================
+[0m16:01:23.738138 [info ] [MainThread]: Running with dbt=1.12.5
+[0m16:01:23.738969 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\lucas\\.dbt', 'invocation_command': 'dbt init cosmosproject', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m16:01:23.783880 [debug] [MainThread]: Starter project path: C:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m16:01:23.811816 [info ] [MainThread]: Setting up your profile.
+[0m16:01:43.541249 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m16:01:43.541937 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m16:01:43.542299 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m16:06:28.466989 [info ] [MainThread]: Profile cosmosproject written to C:\Users\lucas\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m16:06:28.470639 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m16:06:28.471519 [info ] [MainThread]: dbt version: 1.12.5
+[0m16:06:28.471969 [info ] [MainThread]: python version: 3.13.2
+[0m16:06:28.472396 [info ] [MainThread]: python path: C:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe
+[0m16:06:28.472735 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:06:28.560033 [info ] [MainThread]: Using profiles dir at C:\Users\lucas\.dbt
+[0m16:06:28.560832 [info ] [MainThread]: Using profiles.yml file at C:\Users\lucas\.dbt\profiles.yml
+[0m16:06:28.561314 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\lucas\dbt_airflow\dbt\cosmosproject\dbt_project.yml
+[0m16:06:28.562636 [info ] [MainThread]: adapter type: snowflake
+[0m16:06:28.563083 [info ] [MainThread]: adapter version: 1.12.1
+[0m16:06:28.696062 [info ] [MainThread]: Configuration:
+[0m16:06:28.696812 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:06:28.697267 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:06:28.697735 [info ] [MainThread]: Required dependencies:
+[0m16:06:28.698263 [debug] [MainThread]: Executing "git --help"
+[0m16:06:29.129221 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:06:29.129796 [debug] [MainThread]: STDERR: "b''"
+[0m16:06:29.130417 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:06:29.130958 [info ] [MainThread]: Connection:
+[0m16:06:29.131396 [info ] [MainThread]:   account: RL78215
+[0m16:06:29.131749 [info ] [MainThread]:   user: JIANNORTHSTARPT2
+[0m16:06:29.132175 [info ] [MainThread]:   database: DE_AA_DB
+[0m16:06:29.132629 [info ] [MainThread]:   warehouse: DE_AA_WH
+[0m16:06:29.133008 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m16:06:29.133334 [info ] [MainThread]:   schema: DE_AA_SCHEMA
+[0m16:06:29.133645 [info ] [MainThread]:   authenticator: None
+[0m16:06:29.133949 [info ] [MainThread]:   oauth_client_id: None
+[0m16:06:29.134263 [info ] [MainThread]:   query_tag: None
+[0m16:06:29.134563 [info ] [MainThread]:   client_session_keep_alive: False
+[0m16:06:29.134870 [info ] [MainThread]:   host: None
+[0m16:06:29.135188 [info ] [MainThread]:   port: None
+[0m16:06:29.135506 [info ] [MainThread]:   proxy_host: None
+[0m16:06:29.135819 [info ] [MainThread]:   proxy_port: None
+[0m16:06:29.136143 [info ] [MainThread]:   protocol: None
+[0m16:06:29.136576 [info ] [MainThread]:   connect_retries: 1
+[0m16:06:29.137075 [info ] [MainThread]:   connect_timeout: None
+[0m16:06:29.137686 [info ] [MainThread]:   retry_on_database_errors: False
+[0m16:06:29.138295 [info ] [MainThread]:   retry_all: False
+[0m16:06:29.138870 [info ] [MainThread]:   insecure_mode: False
+[0m16:06:29.139310 [info ] [MainThread]:   reuse_connections: True
+[0m16:06:29.139768 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m16:06:29.140225 [info ] [MainThread]:   workload_identity_provider: None
+[0m16:06:29.140614 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m16:06:29.141001 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m16:06:29.141788 [info ] [MainThread]: Registered adapter: snowflake=1.12.1
+[0m16:06:29.734982 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m16:06:29.738196 [debug] [MainThread]: Using snowflake connection "debug"
+[0m16:06:29.738711 [debug] [MainThread]: On debug: select 1 as id
+[0m16:06:29.739000 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:06:31.222440 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m16:06:31.223449 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m16:06:31.224199 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m16:06:31.225026 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:06:31.225692 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  290404 (08001): 404 Not Found: post RL78215.snowflakecomputing.com:443/session/v1/login-request
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:06:31.226432 [info ] [MainThread]: Your new dbt project "cosmosproject" was created!
+Initialized new project in C:\Users\lucas\dbt_airflow\dbt\cosmosproject\cosmosproject
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:06:31.227124 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m16:06:31.228760 [debug] [MainThread]: Command `dbt init` succeeded at 16:06:31.228308 after 307.76 seconds
+[0m16:06:31.229423 [debug] [MainThread]: Connection 'debug' was left open.
+[0m16:06:31.229774 [debug] [MainThread]: On debug: No close available on handle
+[0m16:06:31.230137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D8BC850F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D8B722C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D8B5098C0>]}
+[0m16:06:31.230591 [debug] [MainThread]: Flushing usage events
+[0m16:06:32.801155 [debug] [MainThread]: An error was encountered while trying to flush usage events

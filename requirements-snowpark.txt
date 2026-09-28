@@ -1,0 +1,6 @@
+psycopg2-binary
+snowflake_snowpark_python[pandas]==1.5.1
+virtualenv
+apache-airflow-providers-snowflake==4.0.4
+/tmp/astro_provider_snowflake-0.0.0-py3-none-any.whl
+streamlit

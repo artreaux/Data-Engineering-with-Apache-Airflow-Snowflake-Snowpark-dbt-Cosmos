@@ -1,0 +1,4 @@
+services:
+  webserver:
+    ports:
+      - 8501:8501
